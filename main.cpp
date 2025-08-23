@@ -14,21 +14,21 @@ int main() {
     int tries = 0;
 
     cout << randomNM << endl;
-    cout << "wähle eine Zahl zwischen 1 und 100" << endl;
+    cout << "choose a number between 1 and 100" << endl;
     while(!found){
         cin >> input;
         if(input == randomNM) {
             tries += 1;
-            cout << "Du hast die Zahl erraten es war: " << randomNM << " und du hast " << tries << " versuche gebraucht" << endl;
+            cout << "you guessed the number it was: " << randomNM << "you tried" << tries << " times" << endl;
             return 0;
         }
         else if(input > randomNM) {
             tries += 1;
-            cout << "Die Zahl ist niedriger" << endl;
+            cout << "the number is lower" << endl;
         }
         else if(input < randomNM) {
             tries += 1;
-            cout << "Die Zahl ist höher" << endl;
+            cout << "the number is higher" << endl;
         }
     }
     return 0;
