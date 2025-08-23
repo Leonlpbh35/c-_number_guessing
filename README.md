@@ -4,5 +4,5 @@ Hello fellow programmer this is a simple number guessing game in c++ i am pretty
 
 i created the files with g++ i used the following commands:
 
-g++ main.cpp -o main
+g++ main.cpp -o main   
 g++ main.cpp -o main.exe
