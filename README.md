@@ -1,4 +1,4 @@
-# easy-c-number-guessing-game
+# easy-c++-number-guessing-game
 
 Hello fellow programmer this is a simple number guessing game in c++ i am pretty new to c++ right now it still prints the number that was created you can easily remove it in line 16
 
